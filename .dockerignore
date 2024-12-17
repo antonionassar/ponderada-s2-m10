@@ -2,7 +2,9 @@
 .yarn/cache
 .yarn/install-state.gz
 node_modules
-packages/*/src
+# Remover esta linha para permitir que o código-fonte seja copiado
+# packages/*/src
 packages/*/node_modules
-plugins
+# Remover esta linha para permitir copiar plugins internos, caso tenha
+# plugins
 *.local.yaml
